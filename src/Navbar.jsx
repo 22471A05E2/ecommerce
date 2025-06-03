@@ -9,7 +9,7 @@ const Navbar = () => {
    const totalItems=cart.reduce((sum,Item)=>sum+Item.quantity,0)
   return (
     <nav className="navbar">
-      <div className="navbar-title">Food Menu</div>
+      <div className="navbar-title">Food Fiesta</div>
       <div className="navbar-links">
         <Link to="/">Home</Link>
         <Link to="/veg">Veg</Link>
