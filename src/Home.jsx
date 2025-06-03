@@ -10,7 +10,7 @@ function Home() {
       </video>
 
       <div className="home-content">
-        <h1>Fresh & Fast Food Delivery</h1>
+        <h1>Fresh & Fast Food</h1>
         <p>Your favorite items delivered at your doorstep within minutes</p>
         <div className="home-buttons">
           <Link to="/veg" className="home-btn">Shop Veg</Link>
