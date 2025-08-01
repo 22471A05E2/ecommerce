@@ -16,7 +16,7 @@ function Nonveg() {
             <div className="nonveg-grid">
                 {nonvegProducts.map((product, index) => (
                     <div key={index} className="nonveg-card">
-                        <img src={`/images/${product.image}`} alt={product.name} />
+                        <img src={`ecommerce/images/${product.image}`} alt={product.name} />
                         <h3>{product.name}</h3>
                         <p>₹ {product.price}</p>
                         <button onClick={() => handleAddtocart(product)}>Add to Cart</button>
