@@ -1,0 +1,72 @@
+/* Home.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* prevents scrolling */
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full screen */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.home-video-bg {
+  position: fixed; /* fixed to stay during scroll */
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(0.5);
+}
+
+.home-content {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.home-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.home-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-btn {
+  padding: 12px 28px;
+  background-color: #ff5722;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.home-btn:hover {
+  background-color: #e64a19;
+}
