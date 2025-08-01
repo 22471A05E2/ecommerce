@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home-container">
       <video autoPlay muted loop className="home-video-bg">
-        <source src="/videos/veg.mp4" type="video/mp4" />
+        <source src="ecommerce/videos/veg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
